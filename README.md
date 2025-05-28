@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# Aglio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img width="154" alt="image" src="https://github.com/user-attachments/assets/52a16152-b333-438f-a606-dc4a4a8435be" />
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+**Aglio** allows you to focus on what matters the most, a productivity suite designed to optimize your time, your workspace, and your flow.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Pomodoro Timer**: Structured work & break sessions to boost focus and prevent burnout.
+- **Window Manager**: Snap, resize, and organize your workspace effortlessly.
+- **App State Reader**: Automatically detects app usage and suggests productivity modes.
+- **Distraction-Free Mode**: Hides unnecessary UI elements to keep you focused.
+- **Quick Note Taking**: Get your notes done when you need it.
+- **Session Analytics**: Track your productivity stats over time.
+- **Custom Shortcuts**: Fully configurable hotkeys to control timers and windows.

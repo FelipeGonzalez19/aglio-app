@@ -5,6 +5,7 @@
     "allowJs": false,
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "noEmit": true,
     "resolveJsonModule": true,
     "esModuleInterop": false,
